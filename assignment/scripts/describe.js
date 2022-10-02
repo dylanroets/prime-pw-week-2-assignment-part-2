@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make variable called name and set it as Dane which is a string 
+// We make a conditional that says if the name is equal value and equal type to the string "Mary" then the console log will display "Hi, Mary"
+// if it's anything other than the name Mary then it will display "how do you do?" in the console log
 //
 
 //CODE
@@ -45,11 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We are creating a variable called secret but assigning no value
+// We are then creating a variable called code and giving it the numerical value of 123
+// We make a conditional that states if code is equal value & type with number 123 then, 
+// we are giving the value of secret the string of "super", and changing the value of code to the code value multiplied by 2
+// We then check if the code value is now greater than 250, if it is greater then the secret value changes to the string "duper"
+// Finally we console log the secret value, which in this case is "super" becuase it met the first conditionals parameters.
 //
-
 //CODE
 /*
 let secret;
