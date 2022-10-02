@@ -169,8 +169,9 @@ if (temp > 39 || time >= 4) {
 FIX - we start with variables, minAge is set as a constant. should say let minAge = 21;
 let age = 21;
 const minAge = 21;
-
+FIX - we check is age is greater then or equal to minAge, theyre mixed up. should be written, if(age >= minAge)
 if(minAge <= age) {
+FIX - these console logs are in the wrong order, the age is equal to the minAge so the immediate console log should be "entry" if else then "no entry"
   console.log('no entry');
 } else {
   console.log('enter');
