@@ -52,6 +52,7 @@ if (name === 'Mary') {
 // We then check if the code value is now greater than 250, if it is greater then the secret value changes to the string "duper"
 // Finally we console log the secret value, which in this case is "super" becuase it met the first conditionals parameters.
 //
+
 //CODE
 /*
 let secret;
@@ -72,10 +73,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We created a variable called student and set the value to true, it's a boolean
+// We created a variable called age and set it with a number value of 34
+// We created a variable called zip and set it with a number value of 55407
+// Next we created a conditional if both isStudent is true and the zip value is greater than 80,000 then the console log will display "you're a student on the west coast"
+// We then said if the isStudent is false OR the age value is less then 30 then the console log will display "what are your hobbies"
+// We then said if the isStudent is true then it will display "Welcome to prime" in the console log
+// We finally said that if none of the prior conditions are met then display in the console log "how about the weather"
 
 //CODE
 /*
@@ -132,10 +136,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+FIX - colorOne and colorTwo's values have been mixed up and should be switched
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+FIX - colorOne and colorTwo should both be purple now, colorOne && colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,9 +152,10 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+FIX - we should start with two variables, time is set as a constant. should be "let time = 4;"
 let temp = 40;
 const time = 4;
-
+FIX - Temp AND Time, it's written as temp OR time, if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +166,7 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+FIX - we start with variables, minAge is set as a constant. should say let minAge = 21;
 let age = 21;
 const minAge = 21;
 
